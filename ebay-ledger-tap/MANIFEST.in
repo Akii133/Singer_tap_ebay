@@ -1,0 +1,2 @@
+include LICENSE
+include ebay_ledger_tap/schemas/*.json

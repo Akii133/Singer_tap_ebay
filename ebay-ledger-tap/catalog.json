@@ -1,0 +1,54 @@
+{
+  "streams": [
+      {
+          "stream": "sample_stream",
+          "tap_stream_id": "sample_stream",
+          "schema": {
+              "properties": {
+                  "id": {
+                      "type": "integer"
+                  },
+                  "name": {
+                      "type": "string"
+                  }
+              }
+          },
+          "metadata": [
+              {
+                  "breadcrumb": [],
+                  "metadata": {
+                      "selected": true
+                  }
+              }
+          ],
+          "key_properties": ["id"]
+      },
+      {
+          "stream": "transactions",
+          "tap_stream_id": "transactions",
+          "schema": {
+              "properties": {
+                  "transaction_id": {
+                      "type": "string"
+                  },
+                  "transaction_date": {
+                      "type": "string",
+                      "format": "date-time"
+                  },
+                  "amount": {
+                      "type": "number"
+                  }
+              }
+          },
+          "metadata": [
+              {
+                  "breadcrumb": [],
+                  "metadata": {
+                      "selected": true
+                  }
+              }
+          ],
+          "key_properties": ["transaction_id"]
+      }
+  ]
+}
