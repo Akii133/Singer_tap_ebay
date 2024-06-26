@@ -1,5 +1,6 @@
 {
-  "username": "my_username",
-  "password": "my_password",
-  "start_date": "2017-01-01T00:00:00Z"
+  "start_date": "2022-01-01T00:00:00Z",
+  "access_token": "<your_ebay_access_token>",
+  "username": "<your_ebay_username>",
+  "password": "<your_ebay_password>"
 }
